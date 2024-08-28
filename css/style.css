@@ -92,28 +92,24 @@ button{
     border-radius: 50%;
 }
 
-
-#cont{
-    border: 2px solid red;
-    
-}
-
 .seçao4>article{
     display: inline-block;
     width: 29%;
     font-size: 25px;
     padding: 25px 15px 13px 55px;
     text-align:center; 
+    border: 2px solid rgb(70, 69, 69);
 }
-
 
 h5,h6{
     font-size: 25px;
 }
 
-.rodape>p{
+footer{
     background-color: #1a1818;
     background-image: url("../img/rodepe.jpeg");
     padding: 25px 15px 13px 55px;
-    
+}
+footer>p{
+    float: right;
 }
